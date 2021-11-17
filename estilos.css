@@ -234,6 +234,17 @@ footer .logo-rodape {
   display: none;
 }
 
+.novidade::before {
+  content: "Novidade!";
+  display: inline-block;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 6px 3px 6px;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
 #unmute {
   position: absolute;
   left: calc(50% - 0.75em);
