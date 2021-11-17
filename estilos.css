@@ -51,11 +51,17 @@ header {
 
 header ul {
   background-color: rgba(0, 204, 147, 0.53);
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+  padding-left: 0;
 }
 
 header a {
   text-decoration: none;
   text-shadow: 1px 1px black;
+  display: inline-blck;
+  padding: 10px 10px;
 }
 
 #menu-de-navegacao ul {
