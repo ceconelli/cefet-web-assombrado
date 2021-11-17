@@ -180,7 +180,15 @@ main {
   font-size: 150%;
 }
 
+#tags :active {
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+}
 
+#tags :hover {
+  cursor: pointer;
+}
 
 
 
